@@ -1,0 +1,126 @@
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	outline: none;
+	text-decoration: none;
+	background: transparent;
+	vertical-align: baseline;
+}
+
+p{
+	text-indent: 2em;
+}
+
+body {
+	font: 81.3%/1.5em 'Droid Serif', serif;
+	-webkit-font-smoothing: antialiased;
+	/* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+p {
+	margin: 0 0 1em 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+h1,h2,h3,h4 {
+	color: #121412;
+	font-family: 'Droid Serif', serif;
+}
+
+.alignleft {
+	float: left;
+	margin: 20px;
+}
+
+
+ul.list {
+	margin: 0 0 1.5em 0;
+}
+
+ul.list li {
+	font-style: italic;
+	font-family: 'Droid Serif', serif;
+	line-height: 2.2em;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 940px;
+}
+
+
+.accordion {
+	clear: both;
+	margin: 0;
+    display: flex;
+	list-style: none;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-style: solid;
+}
+
+.accordion>li:first-child {
+	border-left: none;
+}
+
+.accordion>li {
+	position: relative;
+	float: left;
+	display: block;
+	margin: 0;
+	width: 50%;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.accordion>li {
+	border-left-width: 1px;
+	border-style: solid;
+}
+
+.lide-thumb {
+	float: left;
+	margin-right: 20px;
+}
+
+.accordion span {
+	font-family: 'Droid Serif', serif;
+}
+
+.accordion .slide-name {
+	font-size: 1.154em;
+}
+
+.light .accordion .slide-name {
+	color: #121412;
+}
+
+img {
+    float: left;
+}
+
+.accordion .slide-thumb img {
+	display: left;
+}
+
+.section {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid #ccc;
+}
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.poem{
+    margin: 100px;
+}

@@ -1,0 +1,177 @@
+body {
+    width: 1100px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+.body_color{
+    background-color: #fbf5e6;
+}
+
+#current {
+    background-color: #4a5354;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+p {
+    text-indent: 2em;
+    font-size: 20px;
+}
+
+a {
+    color: #474747;
+    text-decoration: none;
+}
+.dormitory {
+    font-size: 26px;
+    font-family: 楷体;
+    color: #000;
+    transition: 0.5s;
+}
+
+.dormitory:hover {
+    color: #ff6700;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.box1 {
+    width: 1100px;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+header {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.box_tai {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+
+
+    background-color: #f66262cd;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.5s;
+} 
+
+.box_tai:hover {
+    /* width: 130px; */
+    /* height: 40px; */
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: #474747;
+}
+
+.box_heng1 {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #d3ca20;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.box_heng1:hover {
+    /* width: 130px; */
+    /* height: 40px; */
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: #474747;
+}
+
+.box_heng2 {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #2dd53e;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.5s;
+}
+.box_heng2:hover {
+    /* width: 130px; */
+    /* height: 40px; */
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: #474747;
+}
+
+.box_song {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #2eb7c6;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.5s;
+}
+.box_song:hover {
+    /* width: 130px; */
+    /* height: 40px; */
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: #474747;
+}
+
+.box_hua {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #8a55b0;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.5s;
+}
+.box_hua:hover {
+    /* width: 130px; */
+    /* height: 40px; */
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: #474747;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
